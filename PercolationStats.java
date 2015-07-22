@@ -1,10 +1,10 @@
 
 public class PercolationStats 
 {
-	public int N;
-	public int T;
-	public int Nsq;
-	public double[] randoms;
+	private int N;
+	private int T;
+	private int Nsq;
+	private double[] randoms;
 	
 	public PercolationStats(int a, int b)
 	{

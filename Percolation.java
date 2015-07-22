@@ -3,11 +3,11 @@ public class Percolation
 {
 	
 	// variables
-	public static int N;
-	public static int Nsq;
-	public static boolean[][] openSites;
-	public static boolean[][] fullSites;
-	public static int site;
+	private static int N;
+	private static int Nsq;
+	private static boolean[][] openSites;
+	private static boolean[][] fullSites;
+	private static int site;
 	private static WeightedQuickUnionUF wuf;
 	
 	// constructor
@@ -21,7 +21,7 @@ public class Percolation
 	}
 	
 	// main
-	public static void main(int[] args) 
+	private static void main(int[] args) 
 	{
 		// TODO Auto-generated method stub
 		System.out.println(args);
